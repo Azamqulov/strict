@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s linear;
+}
+
+.navbar .container .nav{
+    display: flex;
+    padding: 20px ;
+}
+.nav img{
+    /* width: 50px; */
+    padding-left:120px;
+}
+.nav p{
+    font-size: 30px;
+    padding: 0 10px;
+}
+.header_img .container{
+    height: 100vh;
+    width: 1140px;
+    background-image: url(images/header_02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.header_text{
+    width: 550px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 12.5%;
+}
+.header_text h1{
+    font-size: 70px;
+    color: white;
+    padding: 20px 0;
+    border-bottom:2px solid cyan ;
+}
+.header_text h3{
+    padding: 30px 0;
+    color: white;
+    font-weight: 300;
+}
+.header_text button{
+    padding: 8px 25px;
+    font-size: 20px;
+    border: 1px solid cyan;
+    background-color: unset;
+    color: white;
+    transition: all 0.3s linear;
+}
+.header_text button:hover{
+    transform: scale(1.1);
+    /* border-radius:0 30px 0 30px ; */
+
+}
+/* Header end */
+.section_one .container{
+    width: 1040px;
+}
+.section_text{
+    padding:50px  ;
+    text-align: center;
+}
+.section_text h1{
+    font-size: 30px;
+}
+.section_text p{
+    padding: 15px 0 50px 0;
+    color: rgb(94, 94, 94);
+}
+/* section_text end */
+
+.section_icon {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: white;
+}
+.section_icon .box{
+    width: 300px;
+    height: 200px;
+}
+.section_icon .box i{
+    padding:10px 20px ;
+    /* font-size: 30px; */
+    border: 1px solid black;
+    background-color: rgb(81, 81, 235);
+}
+.section_icon .box h4{
+    margin-top: 20px;
+}
+.section_icon .box p{
+    padding-top: 10px;
+    color: rgb(94, 94, 94);
+}
+p{
+    color: rgb(94, 94, 94);
+}
+.section_icon .box:hover{
+    transform: scale(1.1);
+}
+/* section_icon  end*/
+.section_card{
+    display: grid;
+    grid-template-columns: repeat(3 ,300px);
+    grid-template-rows: repeat(2, 220px);
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 70px;
+}
+.section_card .block .box0{
+    height: 100%;
+    background-color:rgba(146, 156, 250, 0);
+}
+.section_card .block .box0:hover {
+    height: 100%;
+    width: 100%;
+    background-color:rgba(84, 84, 236, 0.637);
+}
+.section_card .block img{
+    width: 100%;
+    height: 100%;
+}
+.section_card .block {
+    background-image:url(images/photo1_03.png) ;
+}
+.section_card .block:nth-child(2){
+    background-image: url(images/photo2_03.jpg);
+}
+.section_card .block:nth-child(3){
+    background-image: url(images/photo3_03.jpg);
+}
+.section_card .block:nth-child(4){
+    background-image: url(images/photo4_03.jpg);
+}
+.section_card .block:nth-child(5){
+    background-image: url(images/photo5_03.jpg);
+}
+.section_card .block:nth-child(6){
+    background-image: url(images/photo6_03.jpg);
+}
+/* sectiom_card end */
+.section_registr{
+    width: 1140px;
+    background-image: url(images/footer_02.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+}
+.registorfoorm{
+    width: 700px;
+    height: 550px;
+    margin: 0 auto ;
+    justify-content: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.registorfoorm h1{
+    color: white;
+    font-size: 40px;
+}
+.registorfoorm p{
+    color: rgb(201, 195, 195);
+}
+.registorfoorm input{
+    width: 400px;
+    padding: 10px 10px;
+    margin: 20px;
+    background-color: unset;
+    border: 1px solid rgb(170, 166, 166);
+    color: white;
+}
+.registorfoorm textarea{
+    padding:  10px;
+    background-color: unset;
+    border: 1px solid rgb(170, 166, 166);
+    color: white;
+    display:block;
+    margin: 0 auto;
+
+}
+.registorfoorm .checkbox{
+    width:20px;
+    height: 15px;
+    margin: 20px 0;
+}
+.registorfoorm span{
+    margin:0 130px 0 0;
+    justify-content: left;
+    color: rgb(211, 207, 207);
+}
+.registorfoorm button{
+    padding: 5px 35px;
+    background-color: unset;
+    border:0.5px solid cyan ;
+    color: white;
+}
+.registorfoorm button:hover{
+    transform: scaleX(1.1);
+    border-radius:0 15px 0 15px ;
+}
+/* section_registor end */
+.footer_one .container{
+    width: 1140px;
+    padding: 20px 50% 20px 10%;
+}
